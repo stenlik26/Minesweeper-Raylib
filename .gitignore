@@ -1,0 +1,42 @@
+# Ignore Visual Studio specific files
+.vs/
+*.suo
+*.user
+*.VC.db
+*.VC.opendb
+*.pdb
+*.idb
+*.ipch
+*.ilk
+
+# Ignore build artifacts
+bin/
+lib/*.lib
+lib/*.dll
+lib/*.exp
+lib/*.pdb
+
+# Ignore intermediate files
+obj/
+*.obj
+*.o
+*.log
+*.tlog
+*.cache
+*.ncb
+*.sdf
+
+# Ignore CMake generated files (if using CMake)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Ignore compiled binaries
+*.exe
+*.out
+
+# Ignore Raylib build artifacts (if compiled manually)
+raylib/src/*.o
+raylib/src/*.a
+raylib/src/*.exe
