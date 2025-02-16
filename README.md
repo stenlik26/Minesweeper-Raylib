@@ -22,7 +22,7 @@ A Minesweeper game built with Raylib and C++. It features a graphical user inter
 - **Raylib** (https://www.raylib.com/)
 
 ## Screenshots
-![Screenshot1](pics/1.png)
-![Screenshot2](pics/2.png)
-
-
+<p float="left">
+<img src="pics/1.png" width="30%"/>
+<img src="pics/2.png" width="30%"/>
+</p>
